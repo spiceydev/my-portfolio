@@ -1,4 +1,5 @@
 import React from 'react';
+import toast from 'react-hot-toast';
 
 export default function Contact() {
   const [name, setName] = React.useState('');
@@ -20,7 +21,12 @@ export default function Contact() {
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: encode({ 'form-name': 'contact', name, email, message }),
     })
-      .then(() => alert('Message sent!'))
+      .then(() => {
+        toast.success('Thank you for your message!');
+        setName('');
+        setEmail('');
+        setMessage('');
+      })
       .catch((error) => alert(error));
   }
   return (
