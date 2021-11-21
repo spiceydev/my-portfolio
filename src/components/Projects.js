@@ -12,9 +12,7 @@ export default function Projects() {
             Apps I've Built
           </h1>
           <p className="mx-auto text-base leading-relaxed lg:w-2/3">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
+            Here are just a few of the apps I've built.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
@@ -24,7 +22,7 @@ export default function Projects() {
               key={project.image}
               className="p-4 sm:w-1/2 w-100"
             >
-              <div className="relative flex">
+              <div className="relative flex min-h-full">
                 <img
                   alt="gallery"
                   className="absolute inset-0 object-cover object-center w-full h-full"

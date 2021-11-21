@@ -11,9 +11,8 @@ export default function About() {
             apps.
           </h1>
           <p className="mb-8 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-            laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-            Laborum, voluptas natus?
+            I am a fullstack developer from Auckland, New Zealand. I have a
+            passion for building apps that are user friendly and easy to use.
           </p>
           <div className="flex justify-center">
             <a
