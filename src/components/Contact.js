@@ -73,13 +73,16 @@ export default function Contact() {
           name="contact"
           onSubmit={handleSubmit}
           className="flex flex-col w-full mt-8 lg:w-1/3 md:w-1/2 md:ml-auto md:py-8 md:mt-0"
+          data-netlify="true"
         >
           <h2 className="mb-1 text-3xl font-medium text-white sm:text-4xl title-font">
             Hire Me
           </h2>
           <p className="mb-5 leading-relaxed">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-            suscipit officia aspernatur veritatis. Asperiores, aliquid?
+            If you wanna get in touch, talk to me about a project collaboration
+            or just say hi, fill up the awesome form below or send an email to
+            <a href="mailto:adam@spicey.dev">adam@spicey.dev</a>
+            and let's talk.
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="text-sm leading-7 text-gray-400">
